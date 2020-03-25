@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+.topo {
+	padding: 60px 60px;
+    align-items: center;
+    justify-content: center;
+}
+.inicio {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	margin-top: 10px
+}
+div img {
+	margin: 0 auto;
+	height: 75.58px;
+}
+table {
+	width: 70%;
+	margin: 0 auto;
+}
+table tr {
+	height: 35px;
+}
+table th {
+	width: 12%;
+}
+table td {
+	padding-left: 10px;
+}
+#table2 td {
+	text-align: center;
+}

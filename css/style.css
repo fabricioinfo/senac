@@ -1,0 +1,193 @@
+*{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 26px;
+}
+header{
+	height: 120px;
+	width: 100%;
+	background-color: #14115e;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	font-size: 1em;
+	transition: all .3s;
+}
+.header_fixed{
+	font-size: 0.7em;
+	height: 60px;
+}
+form.form{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 1em;
+	grid-template-columns: 1fr;
+	height: 260px;
+}
+.group_form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header h1{
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0px 40px;
+	text-align: center;
+}
+main{
+	padding-top: 120px;
+}
+.topo{
+	padding: 60px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h2.header{
+	font-size: 1.8em;
+	color: #672399;
+	text-transform: uppercase;
+	margin: 20px 0;
+	text-align: center;
+}
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+}
+button.enviar{
+	background-color: #23550A;
+	color: white;
+
+}
+button.limpar{
+	background-color: #990F0F;
+	color: white;
+
+}
+button{
+	border: none;
+	margin: 0.3em 0;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+button.enviar:hover{
+	background-color: #3C9111;
+	color: white;
+}
+button.limpar:hover{
+	background-color: #D01414;
+	color: white;
+}
+.group_form_bt{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+}
+nav{
+	position: fixed;
+	bottom: 45px;
+	right: 25px;
+	z-index: 2;
+}
+nav .menu{
+	background-color: #14115e;
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	height: 50px;
+	line-height: 60px;
+	text-align: center;
+	width: 50px;
+}
+.nav_itens{
+	position: absolute;
+	top: -210px;
+	right: 6px;
+	opacity: 0;
+	transition: all 0.3s;
+}
+.nav-show{
+	opacity: 1;
+}
+.nav_itens a{
+	display: block;
+	margin: 10px 0px;
+	color: white;
+	background-color: #14115e;
+	border-radius: 50%;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	width: 40px;
+}
+.text_tooltip{
+	background-color: rgb(90,88,88);
+	width: 120px;
+	text-decoration: none;
+	padding: 0px 5px;
+	position: absolute;
+	right: 60px;
+	height: 25px;
+	margin-top: 15px;
+	opacity: 0;
+	transition: all .2s;
+}
+.text_tooltip:after{
+	content: "";
+	border-top: 0px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid rgb(90,88,88);
+	position: absolute;
+	right: -10px;
+	top: 0px;
+
+}
+#formulario_ponto{
+	transition: all .4s;
+}
+.esconder{
+	display: none;
+}
+.mostrar{
+	display: grid;
+}
+td, th{
+	border: solid thin black;
+	font-size: 12pt;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
+.tabela td.right-table, .tabela th.right-table{
+	text-align: right;
+}
+.tabela td.left-table, .tabela th.left-table{
+	text-align: left;
+}
+.tabela td.first, .tabela th.first{
+	width: 10%;
+}
+table.tabela.cabecalho {
+    width: 100%;
+}
+.data-hora{
+	margin-top: 1cm;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.datas > td{
+	padding: 5px 10px 5px 10px;
+}
+.center-block{
+	justify-self: center; 
+}
+.logo{
+	margin-bottom: 1em;
+}

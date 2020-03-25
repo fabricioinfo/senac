@@ -1,0 +1,130 @@
+.bg-light {
+    background-color: #004587 !important;
+    border-bottom: 2px solid #f7d86a;
+}
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+.container {
+     padding-right: 0; 
+    padding-left: 0px;
+     margin-right: 0;
+     margin-left: 0;
+}
+body {
+            font-family: sans-serif;
+        }
+footer{
+	background-color: #004587 !important;
+    border-top: 2px solid #f7d86a;
+    color: white !important;
+    max-height: 60px;
+    min-height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer > p{
+	text-align: center;
+	font-weight: 700;
+	font-size: 1em;
+	padding-top: 1.2%;
+}
+.scroll-over{
+	max-height: 280px;
+	min-height: 280px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+}
+
+.center-block{
+    justify-self: center; 
+}
+.logo{
+    margin-bottom: 1em;
+}
+
+th{
+ color: #004587 !important;
+}
+.tabela_ponto td, .tabela_ponto th{
+    border: thin solid black;
+}
+td, th{
+   
+    font-size: 12pt;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+.tabela td.right-table, .tabela th.right-table{
+    text-align: right;
+}
+.tabela td.left-table, .tabela th.left-table{
+    text-align: left;
+}
+.tabela td.first, .tabela th.first{
+    width: 10%;
+}
+table.tabela.cabecalho {
+    width: 100%;
+}
+
+.data-hora{
+    margin-top: 1cm;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.datas > td{
+    padding: 5px 10px 5px 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.box_content{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #004587;
+    color: white;
+    padding: 80px;
+    margin-bottom: 25px;
+    box-shadow: 5px 10px 20px lightslategrey;
+    -webkit-transition: .5s ease-in-out;
+       -moz-transition: .5s ease-in-out;
+        -ms-transition: .5s ease-in-out;
+         -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+    cursor: pointer;
+    border-bottom: 3px solid #004587;
+}
+.box_content:hover{
+    background-color: #005CB3;
+    box-shadow: 0px 0px 50px #004587;
+    border-bottom: 3px solid yellow;
+}
+.lista_alunos::-webkit-scrollbar {
+    width: 6px;
+}
+.lista_alunos::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: /*#585858*/#004587;
+    transition: .5s;
+}
+.lista_alunos:hover::-webkit-scrollbar-thumb {
+    
+    background: #005CB3;
+}
+@media only screen and (max-height: 500px) {
+ footer {
+    position: absolute;
+    bottom: -180px;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header h1 {
+    font-family: sans-serif;
+	text-align: center;
+}
+content {
+	display: grid;
+}
+/*.container {
+	grid-column-start: 2;
+	grid-column-end: 3;*/
+}
+.colunas {
+	text-align: center;
+	display: grid;
+	grid-gap: ;
+}
+#matricula {
+
+}
